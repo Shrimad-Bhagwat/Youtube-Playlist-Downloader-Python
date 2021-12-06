@@ -1,8 +1,11 @@
+# Code contributed by
+# Shrimad Bhagwat
+
 from pytube import YouTube
 import youtube_dl
 from pytube import Playlist
 
-p= Playlist("https://www.youtube.com/playlist?list=PLH2h8HO4EQdrygR2SpJnc6OgoJhTdqTdF") # Music Playlist Link
+p= Playlist("<Playlist Link (Playlist should be public or unlisted)>") # Music Playlist Link
 length = p.length
 count = 1
 for url1 in p.video_urls:
